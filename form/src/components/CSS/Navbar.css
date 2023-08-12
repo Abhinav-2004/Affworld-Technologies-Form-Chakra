@@ -1,0 +1,11 @@
+@media screen and (max-width: 645px) {
+    .brand-name {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    .email-button {
+      display: none;
+    }
+  }

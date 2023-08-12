@@ -1,0 +1,49 @@
+@media screen and (max-width: 965px) {
+    .inputAddress1 .inputAddress2, .inputPincode, .inputCity, .inputState, .inputCountry {
+      width:200px;
+    }
+  }
+
+  @media screen and (max-width: 545px) {
+    .main-div2 .inputAddress1 {
+      width:250px;
+    }
+    .main-div2 .inputAddress2 {
+        width:250px;
+      }
+      .main-div2 .inputPincode {
+        width:150px;
+      }
+      .main-div2 .inputCity {
+        width:150px;
+      }
+      .main-div2 .inputCountry {
+        width:150px;
+      }
+      .main-div2 .inputState {
+        width:150px;
+      }
+  }
+ 
+  @media screen and (max-width: 819px) {
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        gap:50px;
+        padding: 0px;
+    }
+    .main-div2{
+        padding: 0px;
+    }
+    .imageMiddle1{
+        display: none;;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .column-div {
+      display: flex;
+      flex-direction: column;
+    }
+  }

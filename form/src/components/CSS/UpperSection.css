@@ -1,0 +1,17 @@
+@media screen and (max-width: 965px) {
+    .main-div .inputName, .main-div .inputPassword,.main-div .inputMobile,.main-div .inputEmail {
+      width:200px;
+    }
+  }
+  @media screen and (max-width: 819px) {
+    .main-div{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        gap:50px;
+    }
+    .imageUpper{
+        height:60vh;
+        width:60vh;
+    }
+  }

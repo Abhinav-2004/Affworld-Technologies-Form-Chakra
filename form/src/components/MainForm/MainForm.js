@@ -7,7 +7,7 @@ import MiddleSection2 from './MiddleSection2';
 import LowerSection from './lowerSection';
 const MainForm = () => {
   return (<>
-    <div className='flex flex-col gap-10'>
+    <div className= "flex flex-col gap-10">
         <div>
             <UpperSection/>
         </div>
@@ -15,10 +15,10 @@ const MainForm = () => {
             <MiddleSection1/>
         </div>
         <div>
-            <MiddleSection2/>
+            
         </div>
         <div>
-             <LowerSection/>
+             
         </div>
     </div>
     </>)

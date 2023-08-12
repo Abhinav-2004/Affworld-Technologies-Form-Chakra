@@ -13,7 +13,7 @@ const LowerSection = () => {
             <div>
               <Checkbox colorScheme="green">
                 <div className="flex text-xl font-ubuntu">
-                  Agree to Terms and Conditions 
+                  Agree to T&C 
                 </div>
               </Checkbox>
             </div>

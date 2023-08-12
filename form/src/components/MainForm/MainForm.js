@@ -15,10 +15,10 @@ const MainForm = () => {
             <MiddleSection1/>
         </div>
         <div>
-            
+            <MiddleSection2/>
         </div>
         <div>
-             
+             <LowerSection/>
         </div>
     </div>
     </>)

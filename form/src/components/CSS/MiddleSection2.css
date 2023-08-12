@@ -1,0 +1,40 @@
+@media screen and (max-width: 1300px) {
+    .middlesection2-div {
+      display: flex;
+      flex-direction: row;
+      gap:100px;
+    }
+  }
+  @media screen and (max-width: 845px) {
+    .middlesection2-div2 {
+      margin-top: 150px;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    .education-image {
+      height: 300px;
+      width:200px
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .middlesection2-div{
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        margin: 0px;
+        padding: 0px;;
+    }
+
+  }
+  @media screen and (max-width: 845px) {
+    .column-div-1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .education-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;;
+    }
+  }

@@ -1,3 +1,8 @@
+@media screen and (max-width: 1300px) {
+  .imageMiddle1 {
+    display:none;
+  }
+}
 @media screen and (max-width: 965px) {
     .inputAddress1 .inputAddress2, .inputPincode, .inputCity, .inputState, .inputCountry {
       width:200px;

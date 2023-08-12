@@ -13,7 +13,7 @@
 ---
 
 </div>
-<h1 align="center">About Homeify</h1>
+<h1 align="center">About Affworld-Technologies-Form-Chakra</h1>
 
 ## Summary
 

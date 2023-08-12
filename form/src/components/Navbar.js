@@ -1,7 +1,7 @@
 import React from "react";
 import { AiOutlineUser } from "react-icons/ai";
 import { ReactComponent as Logo } from "../Assets/RawSvg/logo.svg";
-import { Avatar, AvatarBadge, AvatarGroup, Button } from "@chakra-ui/react";
+import { Avatar, AvatarGroup, Button } from "@chakra-ui/react";
 import {HiOutlineMail} from "react-icons/hi";
 const Navbar = () => {
   return (

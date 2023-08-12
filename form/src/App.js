@@ -1,7 +1,7 @@
 import React from 'react'
 import "./App.css";
 import Navbar from './components/Navbar';
-import MainForm from './components/MainForm';
+import MainForm from './components/MainForm/MainForm';
 import Footer from "./components/Footer"
 const App = () => {
   return (

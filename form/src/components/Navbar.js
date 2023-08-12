@@ -12,7 +12,7 @@ const Navbar = () => {
           <Logo className="w-[60px] h-[60px]" />
         </div>
         <div className="brand-name flex flex-row items-center justify-center text-2xl font-ubuntu">
-          AffWorld Technologies
+          AFFWORLD TECHNOLOGIES
         </div>
       </div>
       <div className="flex flex-row justify-between items-center gap-4">

@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import MiddleImg2 from "../../Assets/Images/middleImg.jpg";
 import { Input } from "@chakra-ui/react";
 import { Select } from "@chakra-ui/react";
-const MiddleSection1 = () => {
+import { UserContext } from "../../UserContext";
+const MiddleSection2 = () => {
+    const {middleData2, setMiddleData2}=useContext(UserContext);
   return (
     <>
       <div className="flex flex-row justify-evenly gap-52 items-center ml-11">
@@ -66,4 +68,4 @@ const MiddleSection1 = () => {
   );
 };
 
-export default MiddleSection1;
+export default MiddleSection2;

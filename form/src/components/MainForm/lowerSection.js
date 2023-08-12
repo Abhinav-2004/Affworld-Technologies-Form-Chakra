@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Checkbox, CheckboxGroup,Button } from "@chakra-ui/react";
-const lowerSection = () => {
+import { useToast } from '@chakra-ui/react'
+import { UserContext } from "../../UserContext";
+const LowerSection = () => {
+    const toast = useToast()
+    const {lowerData,setLowerData}=useContext(UserContext);
   return (
     <>
       <div className="flex flex-col justify-center gap-10 items-center m-11">
@@ -15,10 +19,17 @@ const lowerSection = () => {
             </div>
           </div>
         </div>
-        <Button colorScheme='red' sx={{boxShadow:"5px 5px black"}}>Submit</Button>
+        <Button onClick={() =>
+        toast({
+          title: 'Thank You',
+          description: "We've Recorder Your Response",
+          status: 'success',
+          duration: 4000,
+          isClosable: true,
+        }) }colorScheme='red' sx={{boxShadow:"5px 5px black"}}>Submit</Button>
       </div>
     </>
   );
 };
 
-export default lowerSection;
+export default LowerSection;

@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import upperImg from "../../Assets/Images/upperImg.png";
 import { Input } from "@chakra-ui/react";
+import { UserContext } from "../../UserContext";
 const UpperSection = () => {
+  const {upperData,setUpperData}=useContext(UserContext);
   return (
     <>  
       <div className="flex flex-row justify-center gap-40 items-center ml-11">

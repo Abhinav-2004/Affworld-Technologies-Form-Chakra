@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        ubuntu: [`'Secular One', sans-serif;"`]
+        ubuntu: [`'Secular One', sans-serif;"`],
+      },
     },
   },
   plugins: [],
 }
-};
